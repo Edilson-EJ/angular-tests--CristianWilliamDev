@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import {Component, Input, input} from '@angular/core';
 
 @Component({
   selector: 'app-label',
@@ -8,5 +8,5 @@ import { Component, input } from '@angular/core';
   styleUrl: './label.component.scss',
 })
 export class LabelComponent {
-  text = input.required<string>();
+  text = input.required<string>()
 }
